@@ -3106,7 +3106,7 @@
         // Cloudinary: image files are uploaded here; Firestore stores only the returned URL.
         // Do NOT put an API secret in this HTML. Unsigned uploads use only the cloud name + preset.
         const CLOUDINARY_CLOUD_NAME = 'btcnoz03';
-        const CLOUDINARY_UPLOAD_PRESET = 'june_upload';
+        const CLOUDINARY_UPLOAD_PRESET = 'mint_upload';
         const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/upload`;
 
         async function uploadImageToCloudinary(fileOrDataUrl, folder='ancha') {
